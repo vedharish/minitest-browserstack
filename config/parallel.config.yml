@@ -1,0 +1,26 @@
+server: "hub-cloud.browserstack.com"
+user: "BROWSERSTACK_USERNAME"
+key: "BROWSERSTACK_ACCESS_KEY"
+
+common_caps:
+  "build": "MiniTest-BrowserStack"
+  "name": "Parallel Test"
+  "browserstack.debug": true
+
+browser_caps:
+  -
+    "browser": "chrome"
+    "os": "OS X"
+    "os_version": "El Capitan"
+  -
+    "browser": "firefox"
+    "os": "Windows"
+    "os_version": "10"
+  -
+    "browser": "internet explorer"
+    "os": "Windows"
+    "os_version": "10"
+  -
+    "browser": "firefox"
+    "os": "OS X"
+    "os_version": "El Capitan"

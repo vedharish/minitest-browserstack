@@ -1,0 +1,14 @@
+server: "hub-cloud.browserstack.com"
+user: "BROWSERSTACK_USERNAME"
+key: "BROWSERSTACK_ACCESS_KEY"
+
+common_caps:
+  "build": "MiniTest-BrowserStack"
+  "name": "Single Test"
+  "browserstack.debug": true
+
+browser_caps:
+  -
+    "browser": "chrome"
+    "os": "Windows"
+    "os_version": "10"
